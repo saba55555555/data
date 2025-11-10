@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Changer App</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="task .js" defer></script>
+</head>
+<body>
+
+  <h1>Mood Changer App 😊</h1>
+
+  <p>Type your name:</p>
+  <input type="text" id="nameInput" placeholder="Enter your name">
+
+  <p id="greeting">Hello, Guest!</p>
+
+  <p>Select your mood:</p>
+  <select id="moodSelect">
+    <option value="">--Select Mood--</option>
+    <option value="happy">Happy</option>
+    <option value="sad">Sad</option>
+    <option value="angry">Angry</option>
+    <option value="relaxed">Relaxed</option>
+  </select>
+
+  <br><br>
+  <button id="showMoodBtn">Show My Mood</button>
+
+  <div id="emoji">😐</div>
+
+</body>
+</html>
